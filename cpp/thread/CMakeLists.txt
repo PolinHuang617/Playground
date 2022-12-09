@@ -12,6 +12,6 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
 endif()
 
 add_subdirectory(mutex)
-# add_subdirectory(condition_variable)
-# add_subdirectory(future)
+add_subdirectory(condition_variable)
+add_subdirectory(future)
 
