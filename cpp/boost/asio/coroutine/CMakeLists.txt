@@ -1,6 +1,6 @@
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/tutorial/coroutine)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/coroutine)
 
-set(BOOST_ROOT /home/polin/Library/boost_1_80_0)
+# set(BOOST_ROOT /home/polin/Library/boost_1_80_0)
 # set(Boost_NO_SYSTEM_PATH ON)
 
 find_package(Boost REQUIRED COMPONENTS context fiber)

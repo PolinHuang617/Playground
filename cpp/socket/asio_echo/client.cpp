@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 
         tcp::socket s(io_context);
         tcp::resolver resolver(io_context);
-        boost::asio::connect(s, resolver.resolve("192.168.218.6", "8001"));
+        boost::asio::connect(s, resolver.resolve("127.0.0.0", "8001"));
 
         std::cout << "Enter message: ";
         char request[MAX_LENGTH];

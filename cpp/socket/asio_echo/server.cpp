@@ -24,6 +24,7 @@ void session(tcp::socket sock) {
             }
 
             boost::asio::write(sock, boost::asio::buffer(data, length));
+            std::cout << data << std::endl;
         }
     }
     catch(const std::exception& e) {
